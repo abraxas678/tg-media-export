@@ -5,9 +5,9 @@ from telethon.tl.types import InputMessagesFilterVideo
 from telethon.tl.types import InputMessagesFilterGif
 
 
-api_id= your api_id
-api_hash = 'your api_hash'
-channel_link = ['channel1','channel2']
+api_id= 10843680
+api_hash = '0eea3b90c78fe4104735643a25ff12aa'
+channel_link = ['bromancebro']
 pic_down = './pic'
 gif_down = './gif'
 video_down = './video'
