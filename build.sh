@@ -2,13 +2,13 @@
 source name.dat
 echo "=== BUILD $name ==="
 #rclone copy path: . --include="apt_installer.dat" -P --max-depth 1
- sudo docker build -t abraxas678/$name:latest . --no-cache 
+docker build -t abraxas678/$name:latest . --no-cache 
 echo
 #rm apt_installer.dat
 #source line
 echo
 echo "=== PUSH $name ==="
- sudo docker push abraxas678/$name:latest
+docker push abraxas678/$name:latest
 #echo "=== START $name ==="
 #bash start.sh
 
